@@ -1,6 +1,8 @@
 # OSX
 #
 .DS_Store
+ and package-lock
+package-lock.json
 
 # Xcode
 #
