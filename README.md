@@ -1,14 +1,20 @@
 <!-- PROJECT SHIELDS --> <!-- *** I'm using markdown "reference style" links for readability. *** Reference links are enclosed in brackets [ ] instead of parentheses ( ). *** See the bottom of this document for the declaration of the reference variables *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use. *** https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url]
 
-<!-- PROJECT LOGO --> <br>
+<!-- PROJECT LOGO --><br>
 
-[![Logo](public/images/asylum-advice-logo.svg)](https://github.com/AsylumAdvice/app) # Asylum Advice Asylum Advice helps asylum seekers find the information that is relevant to their asylum procedure.<br>
-Asylum Advice helps asylum seekers find legal advisors and lawyers.<br>
-[**Explore the docs »**](https://github.com/AsylumAdvice/app)<br>
-<br>
-[View Demo](https://github.com/AsylumAdvice/app) · [asylum-advicert Bug][issues-url] · [Request Feature][issues-url] <!-- TABLE OF CONTENTS -->
+[![Logo](public/images/asylum-advice-logo.svg)](https://github.com/AsylumAdvice/app)
+
+# Asylum Advice
+
+Asylum Advice helps asylum seekers find the information that is relevant to their asylum procedure.
+
+Asylum Advice helps asylum seekers find legal advisors and lawyers.
+
+[**Explore the docs »**](https://github.com/AsylumAdvice/app)
+
+[View Demo](https://github.com/AsylumAdvice/app) · [Report Bug][issues-url] · [Request Feature][issues-url] <!-- TABLE OF CONTENTS -->
 
 # Table of Contents
 
@@ -21,7 +27,7 @@ Asylum Advice helps asylum seekers find legal advisors and lawyers.<br>
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 
-- [Usage](#usage)
+<!-- - [Usage](#usage) -->
 
 - [Roadmap](#roadmap)
 
@@ -31,7 +37,7 @@ Asylum Advice helps asylum seekers find legal advisors and lawyers.<br>
 
 - [Contact](#contact)
 
-- [Acknowledgements](#acknowledgements)
+<!-- - [Acknowledgements](#acknowledgements) -->
 
 <!-- ABOUT THE PROJECT -->
 
@@ -42,48 +48,49 @@ Asylum Advice helps asylum seekers find legal advisors and lawyers.<br>
 ## Built With
 
 - [React Native](https://react-native.org/)
-- []()
-- []()
 
 <!-- GETTING STARTED -->
 
 # Getting Started
 
+Follow the [React Native CLI Quickstart guide](https://reactnative.dev/docs/getting-started) to get React Native and dependencies installed.
+
 To get a local copy up and running follow these simple steps.
-
-## Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-
-```sh
-npm install npm@latest -g
-```
 
 ## Installation
 
-1. Clone the asylum-advice
+1. Clone the app
 
 ```sh
 git clone https://github.com/AsylumAdvice/app.git
 ```
 
-1. Install NPM packages
+2. Install NPM packages
 
 ```sh
+cd app
 npm install
+```
+3. Build the project
+
+```sh
+npx react-native run-ios
+```
+You can also run it directly from within Xcode.
+
+or 
+
+```sh
+npx react-native run-android
 ```
 
 <!-- USAGE EXAMPLES -->
 
-# Usage
+<!-- # Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<!-- ROADMAP -->
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 # Roadmap
 
@@ -119,21 +126,22 @@ Asylum Advice: <https://asylumadvice.org>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-# Acknowledgements
+<!-- # Acknowledgements
 
 - []()
 - []()
-- []()
+- []() -->
 
 <!-- MARKDOWN LINKS & IMAGES --> <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links --> <!-- [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555 [linkedin-url]: https://linkedin.com/in/othneildrew --> <!-- [product-screenshot]: images/screenshot.png -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/AsylumAdvice/app?style=flat
 [contributors-url]: https://github.com/AsylumAdvice/app/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/AsylumAdvice/app?style=flat
 [forks-url]: https://github.com/AsylumAdvice/app/network/members
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/AsylumAdvice/app
 [issues-url]: https://github.com/AsylumAdvice/app/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-shield]: https://img.shields.io/hexpm/l/plug
 [license-url]: https://github.com/AsylumAdvice/app/master/LICENSE.txt
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/AsylumAdvice/app
 [stars-url]: https://github.com/AsylumAdvice/app/stargazers
+
