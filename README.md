@@ -8,9 +8,7 @@
 
 # Asylum Advice
 
-Asylum Advice helps asylum seekers find the information that is relevant to their asylum procedure.
-
-Asylum Advice helps asylum seekers find legal advisors and lawyers.
+Asylum Advice helps asylum seekers find the information that is relevant to their asylum procedure: finding advisors and lawyers.
 
 [**Explore the docs »**](https://github.com/AsylumAdvice/app)
 
