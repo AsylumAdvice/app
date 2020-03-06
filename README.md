@@ -136,3 +136,5 @@ Asylum Advice: <https://asylumadvice.org>
 [license-url]: https://github.com/AsylumAdvice/app/master/LICENSE.txt
 [stars-shield]: https://img.shields.io/github/stars/AsylumAdvice/app
 [stars-url]: https://github.com/AsylumAdvice/app/stargazers
+
+These project has been seen by [![HitCount](http://hits.dwyl.com/https://githubcom/AsylumAdvice//app.svg)](http://hits.dwyl.com/https://githubcom/AsylumAdvice//app) in the last few months!
