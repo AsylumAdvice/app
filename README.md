@@ -137,4 +137,4 @@ Asylum Advice: <https://asylumadvice.org>
 [stars-shield]: https://img.shields.io/github/stars/AsylumAdvice/app
 [stars-url]: https://github.com/AsylumAdvice/app/stargazers
 
-These project has been seen by [![HitCount](http://hits.dwyl.com/https://githubcom/AsylumAdvice//app.svg)](http://hits.dwyl.com/https://githubcom/AsylumAdvice//app) in the last few months!
+These project has been seen by [![HitCount](http://hits.dwyl.com/https://githubcom/AsylumAdvice//app.svg)](http://hits.dwyl.com/https://githubcom/AsylumAdvice//app) people in the last few months!
