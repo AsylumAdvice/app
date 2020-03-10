@@ -1,6 +1,6 @@
 <!-- PROJECT SHIELDS --> <!-- *** I'm using markdown "reference style" links for readability. *** Reference links are enclosed in brackets [ ] instead of parentheses ( ). *** See the bottom of this document for the declaration of the reference variables *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use. *** https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url]
+[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![Apache License][license-shield]][license-url]
 
 <!-- PROJECT LOGO --><br>
 
@@ -133,7 +133,7 @@ Asylum Advice: <https://asylumadvice.org>
 [issues-shield]: https://img.shields.io/github/issues/AsylumAdvice/app
 [issues-url]: https://github.com/AsylumAdvice/app/issues
 [license-shield]: https://img.shields.io/hexpm/l/plug
-[license-url]: https://github.com/AsylumAdvice/app/master/LICENSE.txt
+[license-url]: https://github.com/AsylumAdvice/app/blob/master/LICENSE
 [stars-shield]: https://img.shields.io/github/stars/AsylumAdvice/app
 [stars-url]: https://github.com/AsylumAdvice/app/stargazers
 
