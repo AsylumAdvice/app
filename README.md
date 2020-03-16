@@ -64,6 +64,8 @@ Project Link: <https://github.com/AsylumAdvice/app>
 
 Asylum Advice: <https://asylumadvice.org>
 
+Slack: asylumadvice.slack.com
+
 <!-- ACKNOWLEDGEMENTS -->
 
 <!-- # Acknowledgements
