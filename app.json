@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "Blank Template (TypeScript)",
-    "slug": "app",
+    "name": "AsylumAdvice",
+    "slug": "AsylumAdvice",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
