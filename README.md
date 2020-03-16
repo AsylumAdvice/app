@@ -38,7 +38,7 @@ npm install
 3. Build the project
 
 ```sh
-expo start
+npm start
 ```
 
 
