@@ -10,46 +10,12 @@
 
 Asylum Advice helps asylum seekers find the information that is relevant to their asylum procedure: finding advisors and lawyers.
 
-[**Explore the docs »**](https://github.com/AsylumAdvice/app)
+# How to try the latest version?
 
-[View Demo](https://github.com/AsylumAdvice/app) · [Report Bug][issues-url] · [Request Feature][issues-url] <!-- TABLE OF CONTENTS -->
+1. Download the latest Expo Client for [Android](https://play.google.com/store/apps/details?id=host.exp.exponent) or [iOS](https://apps.apple.com/de/app/expo-client/id982107779)
+2. Scan the QR code on https://expo.io/@qabbasi/AsylumAdvice
 
-# Table of Contents
-
-- [About the Project](#about-the-project)
-
-  - [Built With](#built-with)
-
-- [Getting Started](#getting-started)
-
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-
-<!-- - [Usage](#usage) -->
-
-- [Roadmap](#roadmap)
-
-- [Contributing](#contributing)
-
-- [License](#license)
-
-- [Contact](#contact)
-
-<!-- - [Acknowledgements](#acknowledgements) -->
-
-<!-- ABOUT THE PROJECT -->
-
-# About The Project
-
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-
-## Built With
-
-- [React Native](https://react-native.org/)
-
-<!-- GETTING STARTED -->
-
-# Getting Started
+# Contributing - Developer Instructions
 
 Follow the [Expo CLI Quickstart guide](https://reactnative.dev/docs/getting-started) to get React Native and dependencies installed.
 
