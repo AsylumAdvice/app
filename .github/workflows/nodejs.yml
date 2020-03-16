@@ -22,5 +22,5 @@ jobs:
     - run: npm test
       env:
         CI: true
-    - name: Expo GitHub Action
     - uses: expo/expo-github-action@5.0.0
+    - name: Expo GitHub Action
