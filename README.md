@@ -60,9 +60,7 @@ Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
 <!-- Your Name - [@@stevejthorpe](https://twitter.com/@stevejthorpe) - thorpe.steve@gmail.com -->
 
-Project Link: <https://github.com/AsylumAdvice/app>
-
-Asylum Advice: <https://asylumadvice.org>
+Website: <https://asylumadvice.org>
 
 Slack: <https://asylumadvice.slack.com>
 
