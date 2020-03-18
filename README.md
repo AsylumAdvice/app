@@ -10,11 +10,6 @@
 
 Asylum Advice helps asylum seekers find the information that is relevant to their asylum procedure: finding advisors and lawyers.
 
-# How to try the latest version?
-
-1. Download the latest Expo Client for [Android](https://play.google.com/store/apps/details?id=host.exp.exponent) or [iOS](https://apps.apple.com/de/app/expo-client/id982107779)
-2. Scan the QR code on https://expo.io/@qabbasi/AsylumAdvice
-
 # Contributing - Developer Instructions
 
 Follow the [Expo CLI Quickstart guide](https://reactnative.dev/docs/getting-started) to get React Native and dependencies installed.
