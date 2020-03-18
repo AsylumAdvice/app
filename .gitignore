@@ -14,3 +14,7 @@ yarn.lock
 
 # macOS
 .DS_Store
+android/.gradle
+android/app/build
+ios/Pods
+ios/Podfile.lock
