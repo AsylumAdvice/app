@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="Gruppe_644" data-name="Gruppe 644" transform="translate(-25 -542)">
+    <circle id="Ellipse_64" data-name="Ellipse 64" cx="11" cy="11" r="11" transform="translate(25 542)" fill="#3b9fb7"/>
+    <circle id="Ellipse_65" data-name="Ellipse 65" cx="9.147" cy="9.147" r="9.147" transform="translate(26.891 543.815)" fill="#fff"/>
+    <g id="Gruppe_643" data-name="Gruppe 643" transform="translate(1.441 1.442)">
+      <line id="Linie_37" data-name="Linie 37" x2="1.428" transform="translate(26.416 551.542)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_38" data-name="Linie 38" y1="0.714" x2="1.236" transform="translate(27.496 554.894)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_39" data-name="Linie 39" y1="1.236" x2="0.714" transform="translate(30.452 557.303)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_40" data-name="Linie 40" y1="1.428" transform="translate(34.478 558.173)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_41" data-name="Linie 41" x1="0.714" y1="1.236" transform="translate(37.781 557.271)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_42" data-name="Linie 42" x1="1.236" y1="0.714" transform="translate(40.191 554.838)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_43" data-name="Linie 43" x1="1.428" transform="translate(41.061 551.526)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_44" data-name="Linie 44" x1="1.236" y2="0.714" transform="translate(40.159 547.508)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_45" data-name="Linie 45" x1="0.714" y2="1.236" transform="translate(37.725 544.576)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_46" data-name="Linie 46" y2="1.428" transform="translate(34.413 543.515)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_47" data-name="Linie 47" x2="0.714" y2="1.236" transform="translate(30.396 544.609)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_48" data-name="Linie 48" x2="1.236" y2="0.714" transform="translate(27.464 547.565)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_49" data-name="Linie 49" y2="6.83" transform="translate(34.413 545.799)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+      <line id="Linie_50" data-name="Linie 50" y1="3.415" x2="5.915" transform="translate(29.62 551.135)" fill="none" stroke="#3b9fb7" stroke-miterlimit="10" stroke-width="0.75"/>
+    </g>
+  </g>
+</svg>

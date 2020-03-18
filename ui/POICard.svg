@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160.998" height="98.727" viewBox="0 0 160.998 98.727">
+  <defs>
+    <filter id="Vereinigungsmenge_1" x="0" y="0" width="160.998" height="98.727" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Point_of_interest" data-name="Point of interest" transform="translate(9 9)">
+    <g id="Gruppe_652" data-name="Gruppe 652" transform="translate(-148.002 -311.998)">
+      <g id="Gruppe_636" data-name="Gruppe 636" transform="translate(-7 -27)">
+        <g transform="matrix(1, 0, 0, 1, 146, 330)" filter="url(#Vereinigungsmenge_1)">
+          <path id="Vereinigungsmenge_1-2" data-name="Vereinigungsmenge 1" d="M23511,21954h23l-23,20.727Zm-13,0a5,5,0,0,1-5-5v-50a5,5,0,0,1,5-5h133a5,5,0,0,1,5,5v50a5,5,0,0,1-5,5Z" transform="translate(-23484 -21885)" fill="#fff"/>
+        </g>
+        <g id="Small_text" data-name="Small text" transform="translate(168 351)">
+          <text id="Flüchtlingsrat_Berlin_e.V." data-name="Flüchtlingsrat Berlin e.V." font-size="10" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="0" y="10">Flüchtlingsrat Berlin e.V.</tspan></text>
+        </g>
+        <g id="Small_text-2" data-name="Small text" transform="translate(168 371)">
+          <text id="Costfree" font-size="8" font-family="Avenir-Book, Avenir"><tspan x="0" y="8">Costfree</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Gruppe_668" data-name="Gruppe 668" transform="translate(-475.002 -160.218)">
+      <rect id="Rechteck_441" data-name="Rechteck 441" width="4.61" height="16.711" rx="2.305" transform="translate(583.091 191.403)"/>
+      <circle id="Ellipse_69" data-name="Ellipse 69" cx="1.585" cy="1.585" r="1.585" transform="translate(583.695 191)"/>
+      <path id="Pfad_440" data-name="Pfad 440" d="M592.7,194.783s6.05.576,9.22,2.3a17.972,17.972,0,0,1,2.593,1.44s1.152.864-.289,1.153-5.186-2.017-5.186-2.017l-6.338-.577" transform="translate(-9.448 -1.19)"/>
+      <path id="Pfad_441" data-name="Pfad 441" d="M587.714,194.783s-6.05.576-9.22,2.3a17.967,17.967,0,0,0-2.593,1.44s-1.152.864.289,1.153,5.186-2.017,5.186-2.017l6.338-.577" transform="translate(-0.461 -1.19)"/>
+      <path id="Pfad_442" data-name="Pfad 442" d="M574.014,209.072a1.027,1.027,0,0,0-.014.145c0,1.034,1.677,1.872,3.746,1.872s3.746-.838,3.746-1.872a.937.937,0,0,0-.015-.145Z" transform="translate(0 -7.602)"/>
+      <rect id="Rechteck_442" data-name="Rechteck 442" width="0.615" height="6.333" transform="translate(577.489 196.426) rotate(21.648)"/>
+      <rect id="Rechteck_443" data-name="Rechteck 443" width="0.615" height="6.333" transform="translate(577.781 196.635) rotate(-20.937)"/>
+      <path id="Pfad_443" data-name="Pfad 443" d="M600.492,209.072a1.027,1.027,0,0,0-.014.145c0,1.034,1.677,1.872,3.746,1.872s3.746-.838,3.746-1.872a1.027,1.027,0,0,0-.014-.145Z" transform="translate(-11.895 -7.602)"/>
+      <rect id="Rechteck_444" data-name="Rechteck 444" width="0.615" height="6.333" transform="translate(592.072 196.426) rotate(21.648)"/>
+      <rect id="Rechteck_445" data-name="Rechteck 445" width="0.615" height="6.333" transform="translate(592.364 196.635) rotate(-20.937)"/>
+    </g>
+  </g>
+</svg>
