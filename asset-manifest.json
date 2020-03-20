@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/asylumadvice.github.io/app/static/css/main.9a4b0535.chunk.css",
+    "main.js": "/asylumadvice.github.io/app/static/js/main.5073bde6.chunk.js",
+    "main.js.map": "/asylumadvice.github.io/app/static/js/main.5073bde6.chunk.js.map",
+    "runtime-main.js": "/asylumadvice.github.io/app/static/js/runtime-main.0d72c770.js",
+    "runtime-main.js.map": "/asylumadvice.github.io/app/static/js/runtime-main.0d72c770.js.map",
+    "static/js/2.ea891585.chunk.js": "/asylumadvice.github.io/app/static/js/2.ea891585.chunk.js",
+    "static/js/2.ea891585.chunk.js.map": "/asylumadvice.github.io/app/static/js/2.ea891585.chunk.js.map",
+    "index.html": "/asylumadvice.github.io/app/index.html",
+    "precache-manifest.3f5b0e339b0027ab907da647a50d241d.js": "/asylumadvice.github.io/app/precache-manifest.3f5b0e339b0027ab907da647a50d241d.js",
+    "service-worker.js": "/asylumadvice.github.io/app/service-worker.js",
+    "static/css/main.9a4b0535.chunk.css.map": "/asylumadvice.github.io/app/static/css/main.9a4b0535.chunk.css.map",
+    "static/js/2.ea891585.chunk.js.LICENSE.txt": "/asylumadvice.github.io/app/static/js/2.ea891585.chunk.js.LICENSE.txt",
+    "static/media/asylum-advice-logo.svg": "/asylumadvice.github.io/app/static/media/asylum-advice-logo.c3d56e8f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d72c770.js",
+    "static/js/2.ea891585.chunk.js",
+    "static/css/main.9a4b0535.chunk.css",
+    "static/js/main.5073bde6.chunk.js"
+  ]
+}
