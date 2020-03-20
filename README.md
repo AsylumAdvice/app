@@ -4,7 +4,9 @@
 
 <!-- PROJECT LOGO --><br>
 
-[![Logo](public/images/asylum-advice-logo.svg)](https://github.com/AsylumAdvice/app)
+[![Logo](public/images/asylum-advice-logo.svg)](https://asylumadvice.github.io/app)
+
+https://asylumadvice.github.io/app
 
 # Asylum Advice
 
