@@ -1,10 +1,14 @@
 import React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 import { CssBaseline } from '@material-ui/core';
 
 import MetaTags from 'react-meta-tags';
-import { MenuBar, OverviewCard } from './Home';
+
+import { Switch, Route, MemoryRouter } from "react-router-dom";
+
+import { MenuBar } from './Menubar';
+import { Home } from './Home';
+import { Questionaire } from './Questionaire';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -13,7 +17,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     content: {
       flexGrow: 1,
-      padding: theme.spacing(3),
+      padding: theme.spacing(1),
     },
     toolbar: theme.mixins.toolbar,
   }),
@@ -22,20 +26,25 @@ const useStyles = makeStyles((theme: Theme) =>
 export default function App() {
   const classes = useStyles();
   return <>
-    <div className={classes.root}>
-      <CssBaseline />
-      {/* https://material-ui.com/getting-started/usage/#responsive-meta-tag */}
-      <MetaTags>
-        <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
-      </MetaTags>
-      <MenuBar />
-      <main className={classes.content}>
-        <div className={classes.toolbar} />
-        <Typography paragraph>
-          <OverviewCard />
-          {/* <MapCard /> */}
-        </Typography>
-      </main>
-    </div>
+    {/* https://material-ui.com/getting-started/usage/#responsive-meta-tag */}
+    <MetaTags>
+      <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+    </MetaTags>
+    <MemoryRouter initialEntries={['/home']} initialIndex={0}>
+      <div className={classes.root}>
+        <CssBaseline />
+        <MenuBar />
+        <main className={classes.content}>
+          <Switch>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <Route path="/questionaire">
+              <Questionaire />
+            </Route>
+          </Switch>
+        </main>
+      </div>
+    </MemoryRouter>
   </>
 }
