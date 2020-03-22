@@ -14,7 +14,7 @@ Asylum Advice helps asylum seekers find the information that is relevant to thei
 
 # Contributing
 
-Follow the [ReactJS tutorial](https://reactjs.org/tutorial/tutorial.html) to get started.
+Follow the official [ReactJS tutorial](https://reactjs.org/tutorial/tutorial.html) to get started.
 
 ## Installation
 
