@@ -12,11 +12,9 @@ https://asylumadvice.github.io/app
 
 Asylum Advice helps asylum seekers find the information that is relevant to their asylum procedure: finding advisors and lawyers.
 
-# Contributing - Developer Instructions
+# Contributing
 
-Follow the [Expo CLI Quickstart guide](https://reactnative.dev/docs/getting-started) to get React Native and dependencies installed.
-
-To get a local copy up and running follow these simple steps.
+Follow the [ReactJS tutorial](https://reactjs.org/tutorial/tutorial.html) to get started.
 
 ## Installation
 
@@ -37,15 +35,6 @@ npm install
 ```sh
 npm start
 ```
-
-
-<!-- USAGE EXAMPLES -->
-
-<!-- # Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
-
-<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 # License
 
