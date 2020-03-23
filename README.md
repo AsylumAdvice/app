@@ -70,5 +70,3 @@ Slack: <https://asylumadvice.slack.com>
 [license-url]: https://github.com/AsylumAdvice/app/blob/master/LICENSE
 [stars-shield]: https://img.shields.io/github/stars/AsylumAdvice/app
 [stars-url]: https://github.com/AsylumAdvice/app/stargazers
-
-This project has been seen [![HitCount](http://hits.dwyl.com/https://githubcom/AsylumAdvice//app.svg)](http://hits.dwyl.com/https://githubcom/AsylumAdvice//app) times in the last few months!
