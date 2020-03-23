@@ -8,7 +8,7 @@
 
 https://asylumadvice.github.io/app
 
-# Asylum Advice
+# Asylum Advice – Easy Access to Legal Advice
 
 Asylum Advice helps asylum seekers find the information that is relevant to their asylum procedure: finding advisors and lawyers.
 
