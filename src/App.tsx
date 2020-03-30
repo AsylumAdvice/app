@@ -6,9 +6,12 @@ import MetaTags from 'react-meta-tags';
 
 import { Switch, Route, MemoryRouter } from "react-router-dom";
 
-import { MenuBar } from './Menubar';
-import { Home } from './Home';
-import { Questionaire } from './Questionaire';
+import { MenuBar } from './components/Menubar';
+import { Home } from './views/Home';
+import Overview from './views/Overview';
+import Questionnaire from './views/Questionnaire';
+
+
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -39,8 +42,11 @@ export default function App() {
             <Route path="/home">
               <Home />
             </Route>
+            <Route path="/overview">
+              <Overview />
+            </Route>
             <Route path="/questionaire">
-              <Questionaire />
+              <Questionnaire />
             </Route>
           </Switch>
         </main>

@@ -1,6 +1,6 @@
 import { makeStyles, Theme, createStyles, Divider, List, ListItem, ListItemText, AppBar, Toolbar, IconButton, Hidden, Drawer, Icon, Box } from "@material-ui/core";
 import { red } from "@material-ui/core/colors";
-import AppIcon from './Logoshort.svg';
+import AppIcon from '../ui/Logoshort.svg';
 import React from "react";
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link as RouterLink, LinkProps as RouterLinkProps } from "react-router-dom";

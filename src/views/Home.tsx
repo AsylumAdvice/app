@@ -2,7 +2,7 @@ import { makeStyles, createStyles, Typography } from "@material-ui/core";
 import React from "react";
 import { Card, CardHeader, CardMedia, CardContent } from '@material-ui/core';
 
-import QuestionaireImage from './Questionaire_picture.jpg';
+import QuestionaireImage from '../ui/QuestionairePicture.jpg';
 
 import styled from 'styled-components';
 
