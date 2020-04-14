@@ -1,20 +1,21 @@
 /* eslint-disable no-use-before-define */
-import React from "react";
+import React, { useContext } from "react";
+import Context from "../store/context";
 import TextField from "@material-ui/core/TextField";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import { makeStyles } from "@material-ui/core/styles";
 
 // ISO 3166-1 alpha-2
 // ⚠️ No support for IE 11
-function countryToFlag(isoCode: string) {
-  return typeof String.fromCodePoint !== "undefined"
-    ? isoCode
-        .toUpperCase()
-        .replace(/./g, char =>
-          String.fromCodePoint(char.charCodeAt(0) + 127397)
-        )
-    : isoCode;
-}
+// function countryToFlag(isoCode: string) {
+//   return typeof String.fromCodePoint !== "undefined"
+//     ? isoCode
+//         .toUpperCase()
+//         .replace(/./g, char =>
+//           String.fromCodePoint(char.charCodeAt(0) + 127397)
+//         )
+//     : isoCode;
+// }
 
 const useStyles = makeStyles({
   option: {
@@ -28,6 +29,16 @@ const useStyles = makeStyles({
 
 export default function CountrySelect() {
   const classes = useStyles();
+  const { state, actions }: any = useContext(Context);
+
+  const handleNationality = (event: any, value: any) => {
+    // console.log("handleNationality: ", value.label);
+    actions({
+      type: "setState",
+      payload: { ...state, nationality: value.label as string},
+    });
+    // console.log("handleNationality STATE: ", state)
+  };
 
   return (
     <Autocomplete
@@ -35,27 +46,29 @@ export default function CountrySelect() {
       style={{ width: 300 }}
       options={countries as ICountryType[]}
       classes={{
-        option: classes.option
+        option: classes.option,
       }}
       autoHighlight
-      getOptionLabel={option => option.label}
-      renderOption={option => (
+      getOptionLabel={(option) => option.label}
+      renderOption={(option) => (
         <React.Fragment>
-          <span>{countryToFlag(option.code)}</span>
-          {option.label} ({option.code}) +{option.phone}
+          <span>{option.label}</span>
+          {/* <span>{countryToFlag(option.code)}</span>
+          {option.label} ({option.code}) +{option.phone} */}
         </React.Fragment>
       )}
-      renderInput={params => (
+      renderInput={(params) => (
         <TextField
           {...params}
           // label="Choose a country"
           variant="outlined"
           inputProps={{
             ...params.inputProps,
-            autoComplete: "new-password" // disable autocomplete and autofill
+            autoComplete: "new-password", // disable autocomplete and autofill
           }}
         />
       )}
+      onChange={handleNationality}
     />
   );
 }

@@ -53,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "@types/geojson": "^7946.0.7",
     "@types/react-map-gl": "^5.2.0"
   }
 }

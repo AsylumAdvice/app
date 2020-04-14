@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-import IQuestionnaire from "../interfaces/IQuestionnaire";
+import IGlobalState from "../interfaces/IGlobalState";
 
 const useGlobalState = () => {
-  const [state, setState] = useState<IQuestionnaire>({
+  const [state, setState] = useState<IGlobalState>({
     // Questionnaire
-    asylumProgress: "Change Me!!!",
+    asylumProgress: "About to start",
     visa: "no",
     fingerprints: "no",
     passport: "no",
@@ -13,7 +13,11 @@ const useGlobalState = () => {
     under18: "no",
     familyInGermany: "no",
     familyElsewhere: "no",
-    adviceLocation: ""
+    adviceLocation: "",
+    // Map selections
+    prefCity: "",
+    prefLang: "English",
+    selectedAdisor: "",
   });
 
   const actions = (action: { type: any; payload: any }) => {

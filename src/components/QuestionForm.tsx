@@ -1,38 +1,19 @@
 import React, { useContext } from "react";
-
 import Context from "../store/context";
-
+import CityFilter from "../components/CityFilter"
 import CountrySelect from "./CountrySelect";
-
 import {
   Button,
   Container,
   FormControl,
   Select,
-  TextField,
-  Typography
+  Typography,
 } from "@material-ui/core/";
-
-import styled from "styled-components";
-
 import { Link } from "react-router-dom";
 
-// needed in order to remove the underline from links
-const StyledLink = styled(Link)`
-  text-decoration: none;
-
-  &:focus,
-  &:hover,
-  &:visited,
-  &:link,
-  &:active {
-    text-decoration: none;
-  }
-`;
-
-export default function Questionnaire() {
+export default function Questionnaire(props: any) {
   const { state, actions }: any = useContext(Context);
-  console.log("State: ", state);
+  // console.log("State: ", state);
 
   // const handleChange = (e: React.ChangeEvent<{ name?: string; value: any }>) => {
   //     const name = e.target.name as keyof typeof state;
@@ -42,6 +23,16 @@ export default function Questionnaire() {
   //         [name]: e.target.value,
   //     });
   //     // console.log(state);
+  // };
+
+  // const handleNationality = (
+  //   e: React.ChangeEvent<{ name?: string; value: any }>
+  // ) => {
+  //   console.log("handleNationalty: ", e.target.value);
+  //   actions({
+  //     type: "setState",
+  //     payload: { ...state, nationality: e.target.value },
+  //   });
   // };
 
   return (
@@ -82,18 +73,13 @@ export default function Questionnaire() {
           <Select
             native
             value={state.asylumProgress}
-            onChange={e =>
+            onChange={(e) =>
               actions({
                 type: "setState",
-                payload: { ...state, asylumProgress: e.target.value }
+                payload: { ...state, asylumProgress: e.target.value },
               })
             }
-            // inputProps={{
-            //     name: 'asylumProgress',
-            //     id: 'aslum-progress'
-            // }}
             variant="outlined"
-            // input={<BootstrapInput />}
           >
             <option aria-label="None" value="" />
             <option value={"begin"}>About to start</option>
@@ -111,18 +97,13 @@ export default function Questionnaire() {
             native
             value={state.visa}
             // name='asylumProgress'
-            onChange={e =>
+            onChange={(e) =>
               actions({
                 type: "setState",
-                payload: { ...state, visa: e.target.value }
+                payload: { ...state, visa: e.target.value },
               })
             }
-            // inputProps={{
-            //     name: 'visa',
-            //     id: 'visa'
-            // }}
             variant="outlined"
-            // input={<BootstrapInput />}
           >
             <option aria-label="None" value="" />
             <option value={"No"}>No</option>
@@ -138,16 +119,12 @@ export default function Questionnaire() {
           <Select
             native
             value={state.fingerprints}
-            onChange={e =>
+            onChange={(e) =>
               actions({
                 type: "setState",
-                payload: { ...state, fingerprints: e.target.value }
+                payload: { ...state, fingerprints: e.target.value },
               })
             }
-            // inputProps={{
-            //     name: 'fingerprints',
-            //     id: 'fingerprints'
-            // }}
             variant="outlined"
           >
             <option aria-label="None" value="" />
@@ -164,16 +141,12 @@ export default function Questionnaire() {
           <Select
             native
             value={state.passport}
-            onChange={e =>
+            onChange={(e) =>
               actions({
                 type: "setState",
-                payload: { ...state, passport: e.target.value }
+                payload: { ...state, passport: e.target.value },
               })
             }
-            // inputProps={{
-            //     name: 'passport',
-            //     id: 'passport'
-            // }}
             variant="outlined"
           >
             <option aria-label="None" value="" />
@@ -198,16 +171,12 @@ export default function Questionnaire() {
           <Select
             native
             value={state.under18}
-            onChange={e =>
+            onChange={(e) =>
               actions({
                 type: "setState",
-                payload: { ...state, under18: e.target.value }
+                payload: { ...state, under18: e.target.value },
               })
             }
-            // inputProps={{
-            //     name: 'under18',
-            //     id: 'under18'
-            // }}
             variant="outlined"
           >
             <option aria-label="None" value="" />
@@ -225,16 +194,12 @@ export default function Questionnaire() {
           <Select
             native
             value={state.familyInGermany}
-            onChange={e =>
+            onChange={(e) =>
               actions({
                 type: "setState",
-                payload: { ...state, familyInGermany: e.target.value }
+                payload: { ...state, familyInGermany: e.target.value },
               })
             }
-            // inputProps={{
-            //     name: 'familyInGermany',
-            //     id: 'family-germany'
-            // }}
             variant="outlined"
           >
             <option aria-label="None" value="" />
@@ -252,16 +217,12 @@ export default function Questionnaire() {
           <Select
             native
             value={state.familyElsewhere}
-            onChange={e =>
+            onChange={(e) =>
               actions({
                 type: "setState",
-                payload: { ...state, familyElsewhere: e.target.value }
+                payload: { ...state, familyElsewhere: e.target.value },
               })
             }
-            // inputProps={{
-            //     name: 'familyElsewhere',
-            //     id: 'family-elsewhere'
-            // }}
             variant="outlined"
           >
             <option aria-label="None" value="" />
@@ -274,21 +235,18 @@ export default function Questionnaire() {
           <Typography variant="body1" color="textPrimary" component="p">
             In which location are you looking for legal aid?
           </Typography>
+          <CityFilter />
 
-          <TextField
+          {/* <TextField
             value={state.adviceLocation}
-            onChange={e =>
+            onChange={(e) =>
               actions({
                 type: "setState",
-                payload: { ...state, adviceLocation: e.target.value }
+                payload: { ...state, adviceLocation: e.target.value },
               })
             }
-            // inputProps={{
-            //     name: 'adviceLocation',
-            //     id: 'advice-location'
-            // }}
             variant="outlined"
-          />
+          /> */}
         </FormControl>
 
         <Button
@@ -296,7 +254,7 @@ export default function Questionnaire() {
           color="primary"
           type="submit"
           onClick={() => console.log("Submitted Form: ", state)}
-          component={StyledLink}
+          component={Link}
           to={"/overview"}
         >
           Submit

@@ -10,17 +10,18 @@ import { MenuBar } from "./components/Menubar";
 import { Home } from "./views/Home";
 import Overview from "./views/Overview";
 import Questionnaire from "./views/Questionnaire";
+import AdvisorProfile from "./views/AdvisorProfile";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      flexGrow: 1
+      flexGrow: 1,
     },
     content: {
       flexGrow: 1,
-      padding: theme.spacing(1)
+      padding: theme.spacing(1),
     },
-    toolbar: theme.mixins.toolbar
+    toolbar: theme.mixins.toolbar,
   })
 );
 
@@ -49,6 +50,9 @@ export default function App() {
               </Route>
               <Route path="/questionaire">
                 <Questionnaire />
+              </Route>
+              <Route path="/advisors">
+                <AdvisorProfile />
               </Route>
             </Switch>
           </main>
