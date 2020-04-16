@@ -1,0 +1,18 @@
+export interface IMapboxAPI {
+    endpoint?: string,
+    source?: string,
+    inputClass?: string,
+    resultClass?: string,
+    resultsClass?: string,
+    inputPosition?: string,
+    inputPlaceholder?: string,
+    resultFocusClass?: string,
+    onSelect: void,
+    onSuggest: object,
+    accessToken: string,
+    proximity?: string,
+    bbox?: string,
+    showLoader?: boolean,
+    focusOnMount?: boolean,
+    types?: string,
+}

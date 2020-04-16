@@ -17,6 +17,8 @@
     "@types/react-router-dom": "^5.1.3",
     "@types/shortid": "0.0.29",
     "@types/styled-components": "^5.0.1",
+    "axios": "^0.19.2",
+    "browserify-css": "^0.15.0",
     "gh-pages": "^2.2.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",

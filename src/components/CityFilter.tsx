@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import Context from "../store/context";
 import adviceGeo from "../data/adviceGeo.json";
 import { getValues } from "../components/getObjects";
+import search from "../components/geocodeSearch";
 // Material-ui
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import { TextField } from "@material-ui/core/";
@@ -30,6 +31,23 @@ const getCityList = () => {
     return cleanList
 };
 
+const defaultProps = {
+  endpoint: "https://api.tiles.mapbox.com",
+  inputClass: "",
+  resultClass: "",
+  resultsClass: "",
+  resultFocusClass: "strong",
+  inputPosition: "top",
+  inputPlaceholder: "Search",
+  showLoader: false,
+  source: "mapbox.places",
+  proximity: "",
+  bbox: "",
+  types: "",
+  onSuggest: function () {},
+  focusOnMount: true,
+};
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     option: {
@@ -46,12 +64,42 @@ export default function CityFilter() {
     const classes = useStyles();
     const cityList = getCityList();
     const { state, actions }: any = useContext(Context);
-    
+
+    const accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
+
     const handleCityChange = (event: object, value: any) => {
       actions({
         type: "setState",
         payload: { ...state, prefCity: value },
       });
+      
+      const query = value;
+
+      const onResult = (res: any) => {
+    
+        actions({
+          type: "setState",
+          payload: {
+            ...state,
+            latitude: res.data.features[0].geometry.coordinates[1],
+            longitude: res.data.features[0].geometry.coordinates[0],
+          },
+        });
+      };
+
+      // Get lat and lon
+      search(
+        defaultProps.endpoint,
+        defaultProps.source,
+        accessToken,
+        defaultProps.proximity,
+        defaultProps.bbox,
+        defaultProps.types,
+        query,
+        onResult
+      );
+      // setState viewport
+      
     };
 
     return (

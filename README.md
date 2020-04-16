@@ -20,21 +20,36 @@ Follow the official [ReactJS tutorial](https://reactjs.org/tutorial/tutorial.htm
 
 1. Clone the app
 
-```sh
-git clone https://github.com/AsylumAdvice/app.git
-```
+    ```sh
+    git clone https://github.com/AsylumAdvice/app.git
+    ```
 
 2. Install NPM packages
 
-```sh
-cd app
-npm install
-```
+    ```sh
+    cd app
+    npm install
+    ```
+
 3. Build the project
 
+    ```sh
+    npm start
+    ```
+
+## Mapbox Token
+
+To render the map and to use the geocoding funtion, you will need a local Mabpox API token.
+
+If you don't have an account already, create one at [Mapbox](https://account.mapbox.com/auth/signup/). You can use the free plan. Once your account is set up, create a token from your account settings by selecting "Create token". You may use your default token, or create a new one specifically for this project.
+
+Next, you need to set `REACT_APP_MAPBOX_ACCESS_TOKEN`. In the project root create a dotfile called `.env.local` and add your token. For example:
+
 ```sh
-npm start
+REACT_APP_MAPBOX_TOKEN="pk.hgibweHyedpNdpedh"
 ```
+
+You should now be good to go.
 
 # License
 

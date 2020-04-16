@@ -8,7 +8,17 @@ export default interface IGlobalState {
   familyInGermany?: string;
   familyElsewhere?: string;
   adviceLocation?: string;
+  // Prefs
   prefCity?: any;
   prefLang?: string;
   selectedAdisor?: string;
+  // Viewport
+  latitude: number;
+  longitude: number;
+  height: string | number;
+  width: string | number;
+  zoom: number;
+  // User location
+  userLon: number,
+  userLat: number
 }
