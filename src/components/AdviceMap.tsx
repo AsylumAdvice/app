@@ -59,13 +59,14 @@ export default function AdviceMap() {
   // Adisor selection
   const [selectedAdvice, setSelectedAdvice] = useState(null);
 
-  const handleSelectedAdvisor = (event: object, value: any) => {
-    console.log("Selected adviser: ", value);
-    actions({
-      type: "setState",
-      payload: { ...state, selectedAdisor: value },
-    });
-  };
+  // const handleSelectedAdvisor = (event: object, value: any) => {
+
+  //   console.log("Selected adviser: ", value);
+  //   actions({
+  //     type: "setState",
+  //     payload: { ...state, selectedAdisor: value },
+  //   });
+  // };
 
   return (
     <>
@@ -82,7 +83,7 @@ export default function AdviceMap() {
           {...state}
           mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
           onViewportChange={(viewport) => {
-              actions({
+            actions({
               type: "setState",
               payload: {
                 ...state,
@@ -91,9 +92,9 @@ export default function AdviceMap() {
                 latitude: state.latitude,
                 longitude: state.longitude,
               },
-            })} 
-          }
-          mapStyle="mapbox://styles/stevejt/ck8htanhp0bec1inyuih6ps92" 
+            });
+          }}
+          mapStyle="mapbox://styles/stevejt/ck8htanhp0bec1inyuih6ps92"
         >
           <GeolocateControl
             style={geolocateStyle}
@@ -115,6 +116,7 @@ export default function AdviceMap() {
                 onClick={(e) => {
                   e.preventDefault();
                   setSelectedAdvice(adviser);
+                  console.log('Popup', e)
                 }}
               >
                 <img src={POIIcon} alt="Advice Centre Icon" />
@@ -147,7 +149,15 @@ export default function AdviceMap() {
                 // onClick={() =>
                 //   console.log("Selected adviser: ", selectedAdvice)
                 // }
-                onClick={() => handleSelectedAdvisor}
+                onClick={() => (
+                  actions({
+                    type: "setState",
+                    payload: {
+                      ...state,
+                      selectedAdvisor: selectedAdvice,
+                    },
+                  })
+                )}
                 variant="contained"
                 color="primary"
                 type="submit"

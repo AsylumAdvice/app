@@ -11,7 +11,7 @@ export default interface IGlobalState {
   // Prefs
   prefCity?: any;
   prefLang?: string;
-  selectedAdisor?: string;
+  selectedAdvisor?: object;
   // Viewport
   latitude: number;
   longitude: number;

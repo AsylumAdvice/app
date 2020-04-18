@@ -17,7 +17,7 @@ const useGlobalState = () => {
     // Prefs
     prefCity: "",
     prefLang: "English",
-    selectedAdisor: "",
+    selectedAdvisor: {},
     // Viewport
     latitude: 52.520008,
     longitude: 13.404954,
@@ -29,7 +29,7 @@ const useGlobalState = () => {
   });
 
   const actions = (action: { type: any; payload: any }) => {
-    console.log("In actions", state.asylumProgress);
+    console.log("In actions");
     const { type, payload } = action;
     switch (type) {
       case "setState":
@@ -37,6 +37,7 @@ const useGlobalState = () => {
       default:
         return state;
     }
+    
   };
 
   return { state, actions };
